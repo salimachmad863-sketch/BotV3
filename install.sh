@@ -1,3 +1,3 @@
-npm install
+yarn install
 
-npm i -g forever && forever index.js && forever save && forever logs
+yarn i -g forever && forever index.js && forever save && forever logs
