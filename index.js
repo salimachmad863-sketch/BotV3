@@ -76,7 +76,8 @@ const {
     color
 } = require('./lib/color');
 Commands.prefix = prefa
-const mongoose = require("mongoose");
+const mongoose = require('mongoose');
+mongoose.set('strictQuery', true);
 const Auth = require('./Processes/Auth');
 const {
     clear
